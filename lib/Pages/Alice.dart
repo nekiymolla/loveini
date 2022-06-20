@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:device_info/device_info.dart';
 
 class AlicePage extends StatelessWidget {
   const AlicePage({Key? key}) : super(key: key);
@@ -108,6 +109,7 @@ class AlicePage extends StatelessWidget {
                     IconButton(
                       onPressed: () {
                         Navigator.pushNamed(context, '/lisa');
+
                       },
                       icon: Image.asset('assets/images/nexticon.png'),
                       iconSize: 60,
