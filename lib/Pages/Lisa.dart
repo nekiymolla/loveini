@@ -101,7 +101,7 @@ class LisaPage extends StatelessWidget {
                     ),
                     IconButton(
                       onPressed: () {
-                        Navigator.pushNamed(context, '/');
+                        Navigator.pushNamed(context, '/eva');
                       },
                       icon: Image.asset('assets/images/nexticon.png'),
                       iconSize: 60,
